@@ -72,6 +72,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Candy.Designer.vb">
+      <DependentUpon>Candy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Candy.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CandyJar.designer.vb">
       <DependentUpon>CandyJar.vb</DependentUpon>
     </Compile>
@@ -131,6 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Candy.resx">
+      <DependentUpon>Candy.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CandyJar.resx">
       <DependentUpon>CandyJar.vb</DependentUpon>
     </EmbeddedResource>
