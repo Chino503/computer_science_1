@@ -1,0 +1,15 @@
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\bin\Debug\the_programs.exe
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\bin\Debug\the_programs.pdb
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\bin\Debug\the_programs.xml
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmCandyJar.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.Resources.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.exe
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.xml
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.pdb
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmCostCalculator.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmMultiples.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmReasons.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmSignature.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.frmTimesTen.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\the_programs\obj\x86\Debug\the_programs.TwinkleTwinkle.resources
