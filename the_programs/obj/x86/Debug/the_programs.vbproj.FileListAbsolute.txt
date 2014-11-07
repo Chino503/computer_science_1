@@ -28,3 +28,4 @@ H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\th
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmTimesTen.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.TwinkleTwinkle.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
+H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmCandy.resources
