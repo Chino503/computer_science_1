@@ -8,7 +8,7 @@ Public Class frmCandy
         Return dblTotal
     End Function
 
-    Private Sub Calculate(ByRef strCandy As String, ByVal intOz As Integer, ByVal dblPrize As Double)
+    Private Sub Calculate(ByVal strCandy As String, ByVal intOz As Integer, ByVal dblPrize As Double)
         Dim dblCost As Double
         dblCost = CalculateTheTotal(intOz, dblPrize)
         lblAnswer.Text = intOz & " ounces of " & strCandy & " at a cost of " & dblPrize.ToString("$##.00") & " per ounce. Costs " & dblCost.ToString("$##.00")
