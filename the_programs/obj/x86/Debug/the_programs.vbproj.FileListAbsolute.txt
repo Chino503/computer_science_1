@@ -50,3 +50,4 @@ C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_prog
 C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_programs.TwinkleTwinkle.resources
 C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
 C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_programs.fmrFootballGame.resources
+C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSavings.resources
