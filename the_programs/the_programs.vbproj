@@ -90,6 +90,12 @@
     <Compile Include="CostCalculator.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="footballGame.Designer.vb">
+      <DependentUpon>footballGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="footballGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Multiples.designer.vb">
       <DependentUpon>Multiples.vb</DependentUpon>
     </Compile>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CostCalculator.resx">
       <DependentUpon>CostCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="footballGame.resx">
+      <DependentUpon>footballGame.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Multiples.resx">
       <DependentUpon>Multiples.vb</DependentUpon>
