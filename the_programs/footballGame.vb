@@ -1,4 +1,6 @@
-﻿Public Class fmrFootballGame
+﻿'Chino Montano 11/12/14 | 701 footballGame excercise
+
+Public Class fmrFootballGame
     Function calcTotal(ByVal intQ1 As Integer, ByVal intQ2 As Integer, ByVal intQ3 As Integer, ByVal intQ4 As Integer) As Integer
         Dim intTotal As Integer
         intTotal = intQ1 + intQ2 + intQ3 + intQ4
@@ -24,12 +26,10 @@
             If intQ1 < 0 Or intQ2 < 0 Or intQ3 < 0 Or intQ4 < 0 Then
                 lblAnswer.Text = Nothing
                 MessageBox.Show("You cannot get negative points")
+            Else
+                intTotal = calcTotal(intQ1, intQ2, intQ3, intQ4)
+                lblAnswer.Text = "The total point is " & intTotal
             End If
-
-            intTotal = calcTotal(intQ1, intQ2, intQ3, intQ4)
-
-            lblAnswer.Text = "The total point is " & intTotal
-
         Catch ex As Exception
             lblAnswer.Text = Nothing
             MessageBox.Show("Please make sure you have entered numberic values for all 4 quarters")

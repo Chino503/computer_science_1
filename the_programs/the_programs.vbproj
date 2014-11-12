@@ -96,6 +96,12 @@
     <Compile Include="footballGame.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GuessIt.Designer.vb">
+      <DependentUpon>GuessIt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuessIt.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Multiples.designer.vb">
       <DependentUpon>Multiples.vb</DependentUpon>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="footballGame.resx">
       <DependentUpon>footballGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuessIt.resx">
+      <DependentUpon>GuessIt.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Multiples.resx">
       <DependentUpon>Multiples.vb</DependentUpon>

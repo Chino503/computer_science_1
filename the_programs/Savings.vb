@@ -1,4 +1,6 @@
-﻿Public Class frmSavings
+﻿'Chino Montano 11/12/14 | 701 Savings excercise
+
+Public Class frmSavings
     Function calcDeposit(ByVal dblSavings As Double, ByVal intMonths As Integer) As Integer
         Dim dblTotal As Double
         dblTotal = dblSavings * intMonths

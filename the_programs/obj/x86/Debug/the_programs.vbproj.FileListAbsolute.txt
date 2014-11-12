@@ -53,3 +53,4 @@ C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_prog
 C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSavings.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.fmrFootballGame.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSavings.resources
+H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmGuessIt.resources
