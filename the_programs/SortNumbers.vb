@@ -17,9 +17,6 @@ Public Class frmSortNumbers
         Dim intNum1 As Integer
         Dim strNum2 As String
         Dim intNum2 As Integer
-
-
-
         strNum1 = InputBox("Please enter your 1st number", "Number Sorting")
         strNum2 = InputBox("Please enter your 2nd number", "Number Sorting")
         If Int16.TryParse(strNum1, intNum1) = False Or Int16.TryParse(strNum2, intNum2) = False Then
@@ -27,8 +24,6 @@ Public Class frmSortNumbers
             MessageBox.Show("Please enter numberic values")
             Exit Sub
         Else
-            ' intNum1 = Int16.TryParse(strNum1, intNum1)
-            ' intNum2 = Int16.TryParse(strNum2, intNum2)
             sortNum(intNum1, intNum2)
             lblSort.Text = "The low number is " & intNum1 & " and the high number is " & intNum2
         End If

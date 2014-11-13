@@ -54,3 +54,24 @@ C:\Users\Israel\Documents\computer_science_1\the_programs\obj\x86\Debug\the_prog
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.fmrFootballGame.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSavings.resources
 H:\My Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmGuessIt.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\the_programs\bin\Debug\the_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\the_programs\bin\Debug\the_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\the_programs\bin\Debug\the_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmCandy.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmCandyJar.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmCostCalculator.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.fmrFootballGame.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmGuessIt.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmMultiples.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.Resources.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmReasons.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSavings.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.fmrShakespeareanInsults.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSignature.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmSortNumbers.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.frmTimesTen.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.TwinkleTwinkle.resources
+H:\Documents\big_daddy_files\computer_science_1\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
