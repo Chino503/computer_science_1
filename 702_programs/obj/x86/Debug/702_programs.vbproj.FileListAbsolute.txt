@@ -1,0 +1,11 @@
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmFriendsArray.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.Resources.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\702_programs.vbproj.GenerateResource.Cache
+H:\Documents\big_daddy_files\computer_science_1\702_programs\bin\Debug\702_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\702_programs\bin\Debug\702_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\702_programs\bin\Debug\702_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\702_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\702_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\702_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.favoriteFood.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmTestData.resources
