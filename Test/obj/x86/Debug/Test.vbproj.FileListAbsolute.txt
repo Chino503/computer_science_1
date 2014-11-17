@@ -1,0 +1,10 @@
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\bin\Debug\Test.exe
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\bin\Debug\Test.pdb
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\bin\Debug\Test.xml
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.frmMultiply.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.frmMusicStore.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.Resources.resources
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.vbproj.GenerateResource.Cache
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.exe
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.xml
+\\H0595sfs01\Home$\Students\112297\My Documents\big_daddy_files\Test\obj\x86\Debug\Test.pdb
