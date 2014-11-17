@@ -72,6 +72,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Birthdays.Designer.vb">
+      <DependentUpon>Birthdays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Birthdays.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="favoriteFood.Designer.vb">
       <DependentUpon>favoriteFood.vb</DependentUpon>
     </Compile>
@@ -106,6 +112,12 @@
     <Compile Include="NumArray.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rates.Designer.vb">
+      <DependentUpon>Rates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rates.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TestData.Designer.vb">
       <DependentUpon>TestData.vb</DependentUpon>
     </Compile>
@@ -114,6 +126,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Birthdays.resx">
+      <DependentUpon>Birthdays.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="favoriteFood.resx">
       <DependentUpon>favoriteFood.vb</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NumArray.resx">
       <DependentUpon>NumArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rates.resx">
+      <DependentUpon>Rates.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TestData.resx">
       <DependentUpon>TestData.vb</DependentUpon>
