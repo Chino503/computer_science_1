@@ -78,6 +78,12 @@
     <Compile Include="Birthdays.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DrawCards.Designer.vb">
+      <DependentUpon>DrawCards.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrawCards.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="favoriteFood.Designer.vb">
       <DependentUpon>favoriteFood.vb</DependentUpon>
     </Compile>
@@ -134,6 +140,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Birthdays.resx">
       <DependentUpon>Birthdays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrawCards.resx">
+      <DependentUpon>DrawCards.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="favoriteFood.resx">
       <DependentUpon>favoriteFood.vb</DependentUpon>
