@@ -23,7 +23,7 @@ Partial Class frmBirthdays
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnGetBirthdates = New System.Windows.Forms.Button()
-        Me.lblDisplay = New System.Windows.Forms.ListBox()
+        Me.lstDisplay = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'btnGetBirthdates
@@ -35,20 +35,20 @@ Partial Class frmBirthdays
         Me.btnGetBirthdates.Text = "Birthdates"
         Me.btnGetBirthdates.UseVisualStyleBackColor = True
         '
-        'lblDisplay
+        'lstDisplay
         '
-        Me.lblDisplay.FormattingEnabled = True
-        Me.lblDisplay.Location = New System.Drawing.Point(12, 70)
-        Me.lblDisplay.Name = "lblDisplay"
-        Me.lblDisplay.Size = New System.Drawing.Size(199, 95)
-        Me.lblDisplay.TabIndex = 1
+        Me.lstDisplay.FormattingEnabled = True
+        Me.lstDisplay.Location = New System.Drawing.Point(12, 70)
+        Me.lstDisplay.Name = "lstDisplay"
+        Me.lstDisplay.Size = New System.Drawing.Size(199, 95)
+        Me.lstDisplay.TabIndex = 1
         '
         'frmBirthdays
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(227, 187)
-        Me.Controls.Add(Me.lblDisplay)
+        Me.Controls.Add(Me.lstDisplay)
         Me.Controls.Add(Me.btnGetBirthdates)
         Me.Name = "frmBirthdays"
         Me.Text = "Birthdays"
@@ -56,5 +56,5 @@ Partial Class frmBirthdays
 
     End Sub
     Friend WithEvents btnGetBirthdates As System.Windows.Forms.Button
-    Friend WithEvents lblDisplay As System.Windows.Forms.ListBox
+    Friend WithEvents lstDisplay As System.Windows.Forms.ListBox
 End Class
