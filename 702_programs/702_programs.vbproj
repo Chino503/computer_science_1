@@ -91,6 +91,12 @@
       <DependentUpon>FriendsArray.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="gpaArray.Designer.vb">
+      <DependentUpon>gpaArray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gpaArray.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FriendsArray.resx">
       <DependentUpon>FriendsArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gpaArray.resx">
+      <DependentUpon>gpaArray.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
