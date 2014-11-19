@@ -8,16 +8,16 @@ Public Class frmDrawCards
         Dim gen As New Random
         Dim intCardDraws As Integer
         For intI As Integer = 0 To intTimes - 1
-            intCardDraws = gen.Next(2, 11) 'random number between 2 and 1
+            intCardDraws = gen.Next(2, 11) 'random number between 2 and 10
             intCardCount(intCardDraws - 2) += 1
         Next
     End Sub
 
     Private Sub showCards(ByVal intCardCount() As Integer)
         For intI As Integer = 0 To intCardCount.Length - 1
-            Dim intCardNum As Integer = 1
+            Dim intCardNum As Integer
             intCardNum += 1
-            lblAnswer.Text += "Card #" & intCardNum & " was drawn " & intCardCount(intI) & " times" & vbCrLf
+            lblAnswer.Text += "Card #" & intCardNum + 1 & " was drawn " & intCardCount(intI) & " times" & vbCrLf
         Next
     End Sub
 

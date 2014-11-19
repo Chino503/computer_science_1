@@ -14,3 +14,4 @@ H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_
 H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmBirthdays.resources
 H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmGPAArray.resources
 H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmDrawCards.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\obj\x86\Debug\_702_programs.frmRandomNums.resources
