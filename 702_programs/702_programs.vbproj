@@ -124,6 +124,12 @@
     <Compile Include="NumArray.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RandomNums.Designer.vb">
+      <DependentUpon>RandomNums.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RandomNums.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rates.Designer.vb">
       <DependentUpon>Rates.vb</DependentUpon>
     </Compile>
@@ -161,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NumArray.resx">
       <DependentUpon>NumArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandomNums.resx">
+      <DependentUpon>RandomNums.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rates.resx">
       <DependentUpon>Rates.vb</DependentUpon>
