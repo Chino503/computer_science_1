@@ -61,12 +61,12 @@ Partial Class frmRandomNums
         Me.lstNums.FormattingEnabled = True
         Me.lstNums.Location = New System.Drawing.Point(12, 111)
         Me.lstNums.Name = "lstNums"
-        Me.lstNums.Size = New System.Drawing.Size(212, 186)
+        Me.lstNums.Size = New System.Drawing.Size(212, 134)
         Me.lstNums.TabIndex = 3
         '
         'lblShowNum
         '
-        Me.lblShowNum.Location = New System.Drawing.Point(12, 313)
+        Me.lblShowNum.Location = New System.Drawing.Point(12, 261)
         Me.lblShowNum.Name = "lblShowNum"
         Me.lblShowNum.Size = New System.Drawing.Size(212, 38)
         Me.lblShowNum.TabIndex = 4
@@ -75,7 +75,7 @@ Partial Class frmRandomNums
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(236, 375)
+        Me.ClientSize = New System.Drawing.Size(236, 310)
         Me.Controls.Add(Me.lblShowNum)
         Me.Controls.Add(Me.lstNums)
         Me.Controls.Add(Me.btnLow)

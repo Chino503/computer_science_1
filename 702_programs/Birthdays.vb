@@ -17,7 +17,7 @@ Public Class frmBirthdays
     Private Sub addBirthday(ByVal strBirthdatesArr() As String)
         For intI As Integer = 0 To strBirthdatesArr.Length - 1
             If strBirthdatesArr(intI) = Nothing Then
-
+                Exit For
             Else
                 lstDisplay.Items.Add(strBirthdatesArr(intI))
             End If
