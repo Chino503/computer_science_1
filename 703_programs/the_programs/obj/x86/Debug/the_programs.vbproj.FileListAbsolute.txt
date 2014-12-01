@@ -7,3 +7,4 @@ H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\bin\De
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.exe
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.xml
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmMathFun.resources
