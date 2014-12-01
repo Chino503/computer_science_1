@@ -1,0 +1,9 @@
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\bin\Debug\Test.exe
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\bin\Debug\Test.pdb
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\bin\Debug\Test.xml
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.Resources.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.frmScores.resources
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.vbproj.GenerateResource.Cache
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.exe
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.xml
+H:\Documents\big_daddy_files\computer_science_1\702_programs\Test\obj\x86\Debug\Test.pdb
