@@ -1,0 +1,9 @@
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmExample.resources
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.Resources.resources
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\bin\Debug\the_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\bin\Debug\the_programs.pdb
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\bin\Debug\the_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.exe
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.xml
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.pdb
