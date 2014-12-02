@@ -1,6 +1,6 @@
 ﻿'Chino Montano
 '12/1/14
-'703 MathFun excercise
+'703 MathFun excercise 1
 
 Public Class frmMathFun
 
