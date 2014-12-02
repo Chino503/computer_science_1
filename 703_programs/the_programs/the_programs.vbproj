@@ -112,6 +112,12 @@
     <Compile Include="MyName.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WhichFirst.Designer.vb">
+      <DependentUpon>WhichFirst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WhichFirst.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="example.resx">
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyName.resx">
       <DependentUpon>MyName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhichFirst.resx">
+      <DependentUpon>WhichFirst.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

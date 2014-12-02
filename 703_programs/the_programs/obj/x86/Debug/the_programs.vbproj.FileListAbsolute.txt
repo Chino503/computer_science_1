@@ -10,3 +10,4 @@ H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x8
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmMathFun.resources
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmMyName.resources
 H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmMyInitials.resources
+H:\Documents\big_daddy_files\computer_science_1\703_programs\the_programs\obj\x86\Debug\the_programs.frmWhichFirst.resources
