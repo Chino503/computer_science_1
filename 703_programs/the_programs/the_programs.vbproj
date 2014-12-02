@@ -100,6 +100,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyInitials.Designer.vb">
+      <DependentUpon>MyInitials.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyInitials.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyName.Designer.vb">
       <DependentUpon>MyName.vb</DependentUpon>
     </Compile>
@@ -119,6 +125,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyInitials.resx">
+      <DependentUpon>MyInitials.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyName.resx">
       <DependentUpon>MyName.vb</DependentUpon>
