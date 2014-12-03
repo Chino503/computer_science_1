@@ -10,7 +10,7 @@ Public Class frmMyInitials
 
     Private Sub btnShowInitials_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShowInitials.Click
         Dim strTheString As String = txtNameInput.Text
-        Dim charFirst, charSecond As String
+        Dim charFirst, charSecond As Char
         Dim intIndex As Integer
 
 
@@ -24,7 +24,7 @@ Public Class frmMyInitials
             Else
                 charFirst = strTheString.Chars(0)
                 charSecond = strTheString.Chars(intIndex)
-                lblAnswer.Text = charFirst.ToUpper & " " & charSecond.ToUpper
+                lblAnswer.Text = Char.ToUpper(charFirst) & " " & Char.ToUpper(charSecond)
             End If
         End If
 
