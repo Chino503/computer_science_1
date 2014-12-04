@@ -94,6 +94,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="StopLight.Designer.vb">
+      <DependentUpon>StopLight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StopLight.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Shapes.resx">
       <DependentUpon>Shapes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopLight.resx">
+      <DependentUpon>StopLight.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
