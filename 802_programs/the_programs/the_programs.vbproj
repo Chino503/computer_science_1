@@ -100,6 +100,12 @@
     <Compile Include="Talk.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="The_ME.Designer.vb">
+      <DependentUpon>The_ME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="The_ME.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Kicks.resx">
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Talk.resx">
       <DependentUpon>Talk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_ME.resx">
+      <DependentUpon>The_ME.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

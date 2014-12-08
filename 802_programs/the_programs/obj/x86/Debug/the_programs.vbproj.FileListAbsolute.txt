@@ -8,3 +8,4 @@ H:\Documents\big_daddy_files\computer_science_1\802_programs\the_programs\obj\x8
 H:\Documents\big_daddy_files\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.xml
 H:\Documents\big_daddy_files\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.pdb
 H:\Documents\big_daddy_files\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.frmTalk.resources
+H:\Documents\big_daddy_files\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.frmMe.resources
