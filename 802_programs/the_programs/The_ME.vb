@@ -34,15 +34,15 @@ Public Class frmMe
         End If
     End Sub
 
-    Private Sub ShowMeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ShowMeToolStripMenuItem.Click
+    Private Sub ShowMeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuShow.Click
         drawMe("draw")
     End Sub
 
-    Private Sub HideMeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HideMeToolStripMenuItem.Click
+    Private Sub HideMeToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuHide.Click
         drawMe("clear")
     End Sub
 
-    Private Sub CloseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CloseToolStripMenuItem.Click
+    Private Sub CloseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuClose.Click
         Application.Exit()
     End Sub
 
