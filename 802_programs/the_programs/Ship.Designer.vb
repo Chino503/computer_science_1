@@ -35,7 +35,7 @@ Partial Class frmShip
         Me.mnuMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuShow, Me.mnuHide, Me.mnuClose})
         Me.mnuMain.Location = New System.Drawing.Point(0, 0)
         Me.mnuMain.Name = "mnuMain"
-        Me.mnuMain.Size = New System.Drawing.Size(584, 24)
+        Me.mnuMain.Size = New System.Drawing.Size(629, 24)
         Me.mnuMain.TabIndex = 0
         Me.mnuMain.Text = "MenuStrip1"
         '
@@ -61,14 +61,14 @@ Partial Class frmShip
         '
         Me.lblShip.Location = New System.Drawing.Point(12, 24)
         Me.lblShip.Name = "lblShip"
-        Me.lblShip.Size = New System.Drawing.Size(560, 329)
+        Me.lblShip.Size = New System.Drawing.Size(600, 400)
         Me.lblShip.TabIndex = 1
         '
         'frmShip
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 362)
+        Me.ClientSize = New System.Drawing.Size(629, 427)
         Me.Controls.Add(Me.lblShip)
         Me.Controls.Add(Me.mnuMain)
         Me.MainMenuStrip = Me.mnuMain
