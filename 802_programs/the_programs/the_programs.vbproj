@@ -72,6 +72,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrawShapes.Designer.vb">
+      <DependentUpon>DrawShapes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrawShapes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Kicks.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DrawShapes.resx">
+      <DependentUpon>DrawShapes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kicks.resx">
       <DependentUpon>Kicks.vb</DependentUpon>
     </EmbeddedResource>

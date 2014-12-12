@@ -34,3 +34,4 @@ E:\programming\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_pr
 E:\programming\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.frmTalk.resources
 E:\programming\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.frmMe.resources
 E:\programming\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
+E:\programming\computer_science_1\802_programs\the_programs\obj\x86\Debug\the_programs.frmDrawShapes.resources
