@@ -1,4 +1,8 @@
-﻿Public Class frmDrawShapes
+﻿'Chino Montano
+'12/12/14
+'802 DrawShapes excercise 5
+
+Public Class frmDrawShapes
 
     Private Sub btnDrawShapes_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnDrawShapes.Click
         Dim surface As Graphics = lblTheShapes.CreateGraphics
