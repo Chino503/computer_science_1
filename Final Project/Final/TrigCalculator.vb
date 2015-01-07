@@ -1,8 +1,29 @@
 ﻿Public Class frmTrigCalculator
 
-    Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
+    Function useSine(ByVal dblOpposite As Double, ByVal dblHypotenuse As Double) As Double
+        Return Math.Sin(dblOpposite / dblHypotenuse)
+    End Function
 
-        Const dblAngleC As Double = 90
+    Private Sub getSides(ByRef dblOpposite As Double, ByRef dblAdjacent As Double, ByRef dblHypotenuse As Double)
+        If dblOpposite = 0 Then
+            txtSideA.Text = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
+        ElseIf dblAdjacent = 0 Then
+            txtSideB.Text = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
+        ElseIf dblHypotenuse = 0 Then
+            txtSideC.Text = Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2))
+        End If
+    End Sub
+
+    Private Sub getAngles(ByRef dblAngleA As Double, ByRef dblAngleB As Double)
+        If dblAngleA < 0 Then
+
+        ElseIf dblAngleB < 0 Then
+
+        End If
+    End Sub
+
+
+    Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
 
         Try
             Dim dblOpposite As Double = CDbl(txtSideA.Text)
@@ -40,7 +61,7 @@
                 MessageBox.Show("You must enter number greater than 0")
             Else
                 If isValid Then
-
+                    getSides(dblOpposite, dblAdjacent, dblHypotenuse)
                 Else
                     MessageBox.Show("You must input atleast 1 side and an angle or two sides.")
                 End If

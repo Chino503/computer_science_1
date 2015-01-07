@@ -10,3 +10,9 @@ E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.frmTri
 D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.exe
 D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.xml
 D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.pdb
+D:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.exe
+D:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.pdb
+D:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.xml
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.Resources.resources
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.frmTrigCalculator.resources
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.vbproj.GenerateResource.Cache
