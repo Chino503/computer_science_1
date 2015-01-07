@@ -1,0 +1,12 @@
+E:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.exe
+E:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.pdb
+E:\programming\computer_science_1\Final Project\Final\bin\Debug\Final.xml
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.Resources.resources
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.vbproj.GenerateResource.Cache
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.exe
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.xml
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.pdb
+E:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.frmTrigCalculator.resources
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.exe
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.xml
+D:\programming\computer_science_1\Final Project\Final\obj\x86\Debug\Final.pdb

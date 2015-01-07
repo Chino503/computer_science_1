@@ -8,3 +8,13 @@ H:\Documents\big_daddy_files\computer_science_1\801_programs\the_programs\obj\x8
 H:\Documents\big_daddy_files\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.xml
 H:\Documents\big_daddy_files\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.pdb
 H:\Documents\big_daddy_files\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.frmStopLight.resources
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.exe
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.xml
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.pdb
+E:\programming\computer_science_1\801_programs\the_programs\bin\Debug\the_programs.exe
+E:\programming\computer_science_1\801_programs\the_programs\bin\Debug\the_programs.pdb
+E:\programming\computer_science_1\801_programs\the_programs\bin\Debug\the_programs.xml
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.Resources.resources
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.frmShapes.resources
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.frmStopLight.resources
+E:\programming\computer_science_1\801_programs\the_programs\obj\x86\Debug\the_programs.vbproj.GenerateResource.Cache
