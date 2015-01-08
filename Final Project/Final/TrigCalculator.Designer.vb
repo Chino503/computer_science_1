@@ -43,27 +43,27 @@ Partial Class frmTrigCalculator
         Me.lblSideA.AutoSize = True
         Me.lblSideA.Location = New System.Drawing.Point(29, 39)
         Me.lblSideA.Name = "lblSideA"
-        Me.lblSideA.Size = New System.Drawing.Size(38, 13)
+        Me.lblSideA.Size = New System.Drawing.Size(49, 13)
         Me.lblSideA.TabIndex = 0
-        Me.lblSideA.Text = "Side A"
+        Me.lblSideA.Text = "Opposite"
         '
         'lblSideB
         '
         Me.lblSideB.AutoSize = True
         Me.lblSideB.Location = New System.Drawing.Point(29, 65)
         Me.lblSideB.Name = "lblSideB"
-        Me.lblSideB.Size = New System.Drawing.Size(38, 13)
+        Me.lblSideB.Size = New System.Drawing.Size(49, 13)
         Me.lblSideB.TabIndex = 1
-        Me.lblSideB.Text = "Side B"
+        Me.lblSideB.Text = "Adjacent"
         '
         'lblSideC
         '
         Me.lblSideC.AutoSize = True
         Me.lblSideC.Location = New System.Drawing.Point(29, 91)
         Me.lblSideC.Name = "lblSideC"
-        Me.lblSideC.Size = New System.Drawing.Size(38, 13)
+        Me.lblSideC.Size = New System.Drawing.Size(64, 13)
         Me.lblSideC.TabIndex = 2
-        Me.lblSideC.Text = "Side C"
+        Me.lblSideC.Text = "Hypotenuse"
         '
         'lblAngleA
         '

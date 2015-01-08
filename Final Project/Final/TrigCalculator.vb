@@ -1,23 +1,25 @@
 ﻿Public Class frmTrigCalculator
 
-    Function useSine(ByVal dblOpposite As Double, ByVal dblHypotenuse As Double) As Double
-        Return Math.Sin(dblOpposite / dblHypotenuse)
-    End Function
-
     Private Sub getSides(ByRef dblOpposite As Double, ByRef dblAdjacent As Double, ByRef dblHypotenuse As Double)
         If dblOpposite = 0 Then
-            txtSideA.Text = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
+            dblOpposite = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
+            txtSideA.Text = dblOpposite
         ElseIf dblAdjacent = 0 Then
-            txtSideB.Text = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
+            dblAdjacent = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblOpposite, 2))
+            txtSideB.Text = dblAdjacent
         ElseIf dblHypotenuse = 0 Then
-            txtSideC.Text = Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2))
+            dblHypotenuse = Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2))
+            txtSideC.Text = dblHypotenuse
+        ElseIf Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2)) <> dblHypotenuse Then
+            MessageBox.Show("You've entered all three sides, but they don't make a right triangle!")
+            Exit Sub
         End If
     End Sub
 
-    Private Sub getAngles(ByRef dblAngleA As Double, ByRef dblAngleB As Double)
-        If dblAngleA < 0 Then
-
-        ElseIf dblAngleB < 0 Then
+    Private Sub getAngles(ByRef dblAngleA As Double, ByRef dblAngleB As Double, ByVal dblOpposite As Double, ByVal dblAdjacent As Double, ByVal dblHypotenuse As Double)
+        If dblAngleA > 0 And dblAdjacent > 0 Then
+            dblOpposite = (dblAdjacent * Math.Truncate(dblAngleA))
+        ElseIf dblAngleB > 0 And dblAdjacent > 0 Then
 
         End If
     End Sub
@@ -55,13 +57,14 @@
                 isValid = True
             ElseIf intSides >= 2 Then
                 isValid = True
+                getSides(dblOpposite, dblAdjacent, dblHypotenuse)
             End If
 
             If dblOpposite < 0 Or dblAdjacent < 0 Or dblHypotenuse < 0 Or dblAngleA < 0 Or dblAngleB < 0 Then
                 MessageBox.Show("You must enter number greater than 0")
             Else
                 If isValid Then
-                    getSides(dblOpposite, dblAdjacent, dblHypotenuse)
+                    getAngles(dblAngleA, dblAngleB, dblOpposite, dblAdjacent, dblHypotenuse)
                 Else
                     MessageBox.Show("You must input atleast 1 side and an angle or two sides.")
                 End If
