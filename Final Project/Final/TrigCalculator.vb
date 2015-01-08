@@ -5,17 +5,33 @@
     End Function
 
     Private Sub getSides(ByRef dblOpposite As Double, ByRef dblAdjacent As Double, ByRef dblHypotenuse As Double)
+
         If dblOpposite = 0 Then
             dblOpposite = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblAdjacent, 2))
         ElseIf dblAdjacent = 0 Then
             dblAdjacent = Math.Sqrt(Math.Pow(dblHypotenuse, 2) - Math.Pow(dblOpposite, 2))
         ElseIf dblHypotenuse = 0 Then
             dblHypotenuse = Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2))
-        ElseIf Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2)) <> dblHypotenuse Then
+        ElseIf (Math.Sqrt(Math.Pow(dblOpposite, 2) + Math.Pow(dblAdjacent, 2)) <> dblHypotenuse) Then
+            dblOpposite = 0
+            dblAdjacent = 0
+            dblHypotenuse = 0
             MessageBox.Show("You've entered all three sides, but they don't make a right triangle!")
-            Exit Sub
         End If
     End Sub
+
+
+    Function theAngles(ByVal dblOpposite As Double, ByVal dblAdjacent As Double, ByVal dblHypotenuse As Double, ByRef dblAngleA As Double) As Double
+        Dim USE_SIN As Double = Math.Asin(Math.Sin(dblOpposite / dblHypotenuse)) * 180 / Math.PI
+        Dim USE_TAN As Double
+        MessageBox.Show(USE_SIN)
+        If dblOpposite > 0 And dblAdjacent > 0 Then
+
+        End If
+
+        Return dblAngleA
+    End Function
+
 
     Private Sub getAngles(ByRef dblAngleA As Double, ByRef dblAngleB As Double, ByRef dblOpposite As Double, ByRef dblAdjacent As Double, ByRef dblHypotenuse As Double)
 
@@ -23,6 +39,13 @@
         Dim getOpp As Double = (dblAdjacent * Math.Tan(dblAngleA * TO_DEG))
         Dim getHyp As Double = (dblOpposite / Math.Sin(dblAngleA * TO_DEG))
         Dim getAdj As Double = (dblHypotenuse * Math.Cos(dblAngleA * TO_DEG))
+
+        theAngles(dblOpposite, dblAdjacent, dblHypotenuse, dblAngleA)
+
+        If dblAngleA >= 90 Then
+            MessageBox.Show("You cannot have a degree greater than 90 degrees")
+            dblAngleA = 0
+        End If
 
         If dblAngleA > 0 And dblAdjacent > 0 Then
             dblOpposite = getOpp
@@ -38,19 +61,6 @@
             getSides(dblOpposite, dblAdjacent, dblHypotenuse)
         End If
 
-        If dblAngleB > 0 And dblAdjacent > 0 Then
-            dblOpposite = getOpp
-            dblAngleA = 90 - dblAngleB
-            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
-        ElseIf dblAngleB > 0 And dblOpposite > 0 Then
-            dblHypotenuse = getHyp
-            dblAngleA = getAngle(dblAngleB)
-            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
-        ElseIf dblAngleB > 0 And dblHypotenuse > 0 Then
-            dblAdjacent = getAdj
-            dblAngleA = getAngle(dblAngleB)
-            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
-        End If
     End Sub
 
     Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
@@ -77,7 +87,7 @@
             Next
 
             For Each dblNum In anglesArr
-                If dblNum > 0 Then
+                If dblNum > 0 And dblNum <= 100 Then
                     intAngles += 1
                 End If
             Next
@@ -86,7 +96,9 @@
                 isValid = True
             ElseIf intSides >= 2 Then
                 isValid = True
-                getSides(dblOpposite, dblAdjacent, dblHypotenuse)
+                If dblAdjacent < dblHypotenuse And dblOpposite < dblHypotenuse Then
+                    getSides(dblOpposite, dblAdjacent, dblHypotenuse)
+                End If
             End If
 
             If dblOpposite < 0 Or dblAdjacent < 0 Or dblHypotenuse < 0 Or dblAngleA < 0 Or dblAngleB < 0 Then

@@ -117,6 +117,7 @@ Partial Class frmTrigCalculator
         '
         'txtAngleB
         '
+        Me.txtAngleB.Enabled = False
         Me.txtAngleB.Location = New System.Drawing.Point(102, 140)
         Me.txtAngleB.Name = "txtAngleB"
         Me.txtAngleB.Size = New System.Drawing.Size(73, 20)
