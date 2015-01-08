@@ -36,8 +36,20 @@
             dblAdjacent = getAdj
             dblAngleB = getAngle(dblAngleA)
             getSides(dblOpposite, dblAdjacent, dblHypotenuse)
-        ElseIf dblAngleB > 0 And dblAdjacent > 0 Then
+        End If
 
+        If dblAngleB > 0 And dblAdjacent > 0 Then
+            dblOpposite = getOpp
+            dblAngleA = 90 - dblAngleB
+            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
+        ElseIf dblAngleB > 0 And dblOpposite > 0 Then
+            dblHypotenuse = getHyp
+            dblAngleA = getAngle(dblAngleB)
+            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
+        ElseIf dblAngleB > 0 And dblHypotenuse > 0 Then
+            dblAdjacent = getAdj
+            dblAngleA = getAngle(dblAngleB)
+            getSides(dblOpposite, dblAdjacent, dblHypotenuse)
         End If
     End Sub
 
