@@ -1,4 +1,7 @@
 ﻿Public Class frmTrigCalculator
+		'Chino Montano 
+		'1/5/15
+		'Final Project
 
     Function getAngle(ByVal dblAngle As Double) As Double
         Return 90 - dblAngle
